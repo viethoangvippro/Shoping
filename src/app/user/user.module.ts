@@ -10,6 +10,7 @@ import { AdminComponent } from './admin/admin.component';
 import { UserloginComponent } from './userlogin/userlogin.component';
 import { StaffComponent } from './staff/staff.component';
 import { UserService } from './user.service';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { UserService } from './user.service';
     RegisterComponent,
     AdminComponent,
     UserloginComponent,
-    StaffComponent
+    StaffComponent,
+    DashboardComponent
   ],
   imports: [
     CommonModule,

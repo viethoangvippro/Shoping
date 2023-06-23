@@ -87,6 +87,15 @@ export class UserService {
     );
   }
 
+  private apiUrl1 = 'http://localhost:3000/user';
+
+  login3(username: string, password: string): Observable<{ role: string }> {
+    const body = { username, password };
+    return this.http.post<{ role: string }>(this.apiUrl1, body);
+  }
+
+
+
   public setPermissions(permissions: string[]) {
     this.permissionsService.loadPermissions(permissions);
   }

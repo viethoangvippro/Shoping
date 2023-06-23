@@ -163,6 +163,29 @@
       "address": "Nui thanh",
       "gender": "Male",
       "id": 4
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 7
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 8
+    },
+    {
+      "username": "adminas",
+      "password": "123",
+      "id": 9
     }
   ],
   "cart": [
