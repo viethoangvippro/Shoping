@@ -1,0 +1,245 @@
+{
+  "products": [
+    {
+      "productName": "Phone 123",
+      "categoryId": 2,
+      "productImg": "https://i.pcmag.com/imagery/reviews/03POP0TjDjuXonJXI16Omn2-1..v1663720055.jpg",
+      "color": "red",
+      "price": "1002",
+      "description": "Product description",
+      "rating": 4,
+      "isValiable": "1",
+      "reviews": "1",
+      "id": 1
+    },
+    {
+      "productName": "Laptop",
+      "categoryId": "2",
+      "productImg": "https://i.pcmag.com/imagery/reviews/03POP0TjDjuXonJXI16Omn2-1..v1663720055.jpg",
+      "color": "red",
+      "price": "200",
+      "description": "Laptop chinh hang bao hanh 0 ngay",
+      "rating": "1",
+      "isValiable": "1",
+      "reviews": "1",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "categoryId": "2",
+      "productName": "Laptop",
+      "description": "Laptop chinh hang bao hanh 0 ngay",
+      "rating": "1",
+      "price": "2323",
+      "productImg": "https://i.pcmag.com/imagery/reviews/03POP0TjDjuXonJXI16Omn2-1..v1663720055.jpg",
+      "isValiable": "1",
+      "color": "red"
+    },
+    {
+      "productName": "hoang",
+      "categoryId": "2",
+      "productImg": "https://i.pcmag.com/imagery/reviews/03POP0TjDjuXonJXI16Omn2-1..v1663720055.jpg",
+      "color": "red",
+      "price": "200",
+      "description": "Laptop chinh hang bao hanh 0 ngay",
+      "rating": "1",
+      "isValiable": "1",
+      "id": 100
+    },
+    {
+      "productName": "Laptop Professional",
+      "categoryId": "4",
+      "productImg": "https://i.pcmag.com/imagery/reviews/03POP0TjDjuXonJXI16Omn2-1..v1663720055.jpg",
+      "color": "blue",
+      "price": "200",
+      "description": "Laptop chinh hang bao hanh 0 ngay",
+      "rating": "1",
+      "isValiable": "1",
+      "id": 4235
+    },
+    {
+      "id": 32412,
+      "categoryId": "5",
+      "productName": "hoang",
+      "description": "Laptop chinh hang bao hanh 0 ngay",
+      "rating": "1",
+      "price": "132",
+      "productImg": "https://i.pcmag.com/imagery/reviews/03POP0TjDjuXonJXI16Omn2-1..v1663720055.jpg",
+      "isValiable": "1",
+      "color": "red"
+    },
+    {
+      "productName": "123456",
+      "categoryId": "5",
+      "productImg": "https://i.pcmag.com/imagery/reviews/03POP0TjDjuXonJXI16Omn2-1..v1663720055.jpg",
+      "color": "red",
+      "price": "132",
+      "description": "Laptop chinh hang bao hanh 0 ngay",
+      "rating": "2",
+      "isValiable": "1",
+      "reviews": "1",
+      "id": 391041
+    },
+    {
+      "id": 31581,
+      "categoryId": "4",
+      "productName": "Hoang",
+      "description": "Halop",
+      "rating": "1",
+      "price": "123",
+      "productImg": "",
+      "isValiable": "2",
+      "color": "Green"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Laptop"
+    },
+    {
+      "id": 2,
+      "categoryName": "Phone"
+    },
+    {
+      "id": 3,
+      "categoryName": "Mouse"
+    },
+    {
+      "id": 4,
+      "categoryName": "Ram"
+    },
+    {
+      "id": 5,
+      "categoryName": "CPU"
+    },
+    {
+      "id": 6,
+      "categoryName": "Pad"
+    },
+    {
+      "id": 7,
+      "categoryName": "Case"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "hoang123",
+      "password": "hoang123",
+      "email": "hoangkai25@gmail.com",
+      "phone": "0397064432",
+      "address": "Núi thành - Quảng Nam",
+      "gender": "1",
+      "role": "user"
+    },
+    {
+      "username": "hoang",
+      "password": "hoang123",
+      "email": "hoangkai25@gmail.com",
+      "confirmpassword": "hoang123",
+      "phone": "0397064432",
+      "address": "Nui thanh",
+      "gender": "Male",
+      "id": 2,
+      "role": "ADMIN"
+    },
+    {
+      "username": "hoang",
+      "password": "123123",
+      "email": "hoangkai251@gmail.com",
+      "confirmpassword": "123123",
+      "phone": "0397064432",
+      "address": "Nui thanh",
+      "gender": "Female",
+      "id": 3
+    },
+    {
+      "username": "hoang2",
+      "password": "123",
+      "email": "hoangkai251@gmail.com",
+      "confirmpassword": "123",
+      "phone": "0397064432",
+      "address": "Nui thanh",
+      "gender": "Male",
+      "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productName": "laptop"
+    },
+    {
+      "name": "Product 1",
+      "price": 100,
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "name": "Product 1",
+      "price": 100,
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "name": "Product 1",
+      "price": 100,
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "name": "Product 1",
+      "price": 100,
+      "quantity": 1,
+      "id": 5
+    },
+    {
+      "name": "Product 1",
+      "price": 100,
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "name": "Product 1",
+      "price": 100,
+      "quantity": 1,
+      "id": 7
+    },
+    {
+      "name": "Product 1",
+      "price": 100,
+      "quantity": 1,
+      "id": 8
+    },
+    {
+      "name": "Product 1",
+      "price": 100,
+      "quantity": 1,
+      "id": 9
+    },
+    {
+      "name": "Product 1",
+      "price": 100,
+      "quantity": 1,
+      "id": 10
+    },
+    {
+      "name": "Product 1",
+      "price": 100,
+      "quantity": 1,
+      "id": 11
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
