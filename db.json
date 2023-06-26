@@ -186,6 +186,16 @@
       "username": "adminas",
       "password": "123",
       "id": 9
+    },
+    {
+      "username": "asd",
+      "password": "123123",
+      "email": "tviehoang@gmail.com",
+      "confirmpassword": "123123",
+      "phone": "12123123",
+      "address": "asd",
+      "gender": "Male",
+      "id": 10
     }
   ],
   "cart": [
