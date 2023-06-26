@@ -122,7 +122,6 @@ export class UserService {
       phone,
       address,
       gender,
-
     }; // Body của request
 
     return this.http.post(url, body); // Gửi request và trả về response dưới dạng Observable
