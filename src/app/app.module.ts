@@ -11,14 +11,13 @@ import { SiteFrameworkModule } from './site-framework/site-framework.module';
 import { UserModule } from './user/user.module';
 import { FormsModule } from '@angular/forms';
 import { HomeModule } from './home/home.module';
-
+import { ProductsModule } from './products/products.module';
+import { CategoriesModule } from './categories/categories.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-
-
   ],
   imports: [
     BrowserModule,
@@ -26,7 +25,11 @@ import { HomeModule } from './home/home.module';
     OrdersModule,
     HttpClientModule,
     SiteFrameworkModule,
-    UserModule,FormsModule,HomeModule
+    UserModule,
+    FormsModule,
+    HomeModule,
+    ProductsModule,
+    CategoriesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -24,8 +24,7 @@ export class ProductsService {
   getCategories() : Observable<Category>{
   const categoryUrl = 'http://localhost:3000/categories';
     return this.httpClient.get<Category>(categoryUrl);
-}
-
+  }
    createProduct(productBody: any): Observable<Product>{
     const productUrl = 'http://localhost:3000/products';
 

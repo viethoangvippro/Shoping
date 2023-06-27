@@ -72,6 +72,7 @@ export class UserService {
     const body = { username, password }; // Body của request
     return await this.http.post(url, body); // Gửi request và trả về response dưới dạng Observable
   }
+
   login1(username: string, password: string): Observable<string> {
     return this.http.get<User[]>('http://localhost:3000/users').pipe(
       map((users: User[]) => {
